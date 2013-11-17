@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% include 'header.twig' %}
+
+    <body>
+        {% include 'banner.twig' %}
+
+        <div class="row main">
+            {% if is_mobile %}
+                {% include 'mobile_menu.twig' %}
+            {% else %}
+                {% include 'menu.twig' %}
+            {% endif %}
+            <div class="large-9 columns" id="pjax-container">
+                {% include 'x-pjax.code-article.twig' %}
+            </div>
+        </div>
+
+        {% include 'footer.twig' %}
+    </body>
+</html>

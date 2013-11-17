@@ -1,0 +1,10 @@
+route:  
+    /code/performant-views/
+template:
+    code-article.twig
+page_title: >
+    MattMendonca.com | Performant Views
+content_title: >
+    Performant, complex, scalable views.
+content: >
+    <h4>Sounds good, right?</h4>

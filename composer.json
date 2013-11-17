@@ -1,0 +1,13 @@
+{
+    "require": {
+        "silex/silex": "1.0.*@dev",
+        "jbinfo/mobile-detect-service-provider": "1.0.*@dev",
+        "symfony/yaml": "~2.3",
+        "twig/twig": ">=1.8,<2.0-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Notion": "src"
+        }
+    }
+}

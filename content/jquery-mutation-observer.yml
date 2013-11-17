@@ -1,0 +1,10 @@
+route: 
+    /code/jquery-mutation-observer/
+template:
+    code-article.twig
+page_title: >
+    MattMendonca.com | jQuery Dom mutation
+content_title: >
+    jQuery Dom mutation plugin.
+content: >
+    <h4>Say what?</h4>

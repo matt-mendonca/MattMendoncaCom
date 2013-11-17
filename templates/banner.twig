@@ -1,0 +1,20 @@
+<div class="banner">
+    {% if is_mobile %}
+        <div class="row">
+            <div class="small-2 columns menu-toggle-columns">
+                <h1 class="menu-toggle"><i class="fi-list"></i></h1>    
+            </div>
+            <div class="small-10 columns">
+                <a class="pjax-link" href="/">
+                    <h3 class="logo">Matt Mendonca</h3>
+                    <h3 class="tagline">[Web Developer]</h3>
+                </a>   
+            </div>
+        </div>
+    {% else %}
+        <a class="pjax-link" href="/">
+            <h3 class="logo">Matt Mendonca</h3>
+            <h3 class="tagline">[Web Developer]</h3>
+        </a>
+    {% endif %}
+</div>
