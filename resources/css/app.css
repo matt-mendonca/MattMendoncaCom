@@ -24,6 +24,16 @@
         overflow-x: hidden;
     }
 
+    #pjax-container {
+        opacity: 0;
+
+        transition: opacity 0.15s, -webkit-transform 0.25s;
+    }
+
+    .loaded #pjax-container {
+        opacity: 1;
+    }
+
 /* Banner */
     .banner {
         background: #444;
@@ -116,9 +126,8 @@
             }
             
 /* Mobile Menu */
-    .mobile.menu,
-    #pjax-container {
-        transition: -webkit-transform .25s;      
+    .mobile.menu {
+        transition: -webkit-transform 0.25s;     
     }
 
     .mobile.menu {
