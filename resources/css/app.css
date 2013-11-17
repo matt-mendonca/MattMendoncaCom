@@ -27,7 +27,7 @@
     #pjax-container {
         opacity: 0;
 
-        transition: opacity 0.15s, -webkit-transform 0.25s;
+        transition: opacity 0.1s, -webkit-transform 0.25s;
     }
 
     .loaded #pjax-container {
